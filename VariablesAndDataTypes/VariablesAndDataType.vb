@@ -1,4 +1,4 @@
-﻿Module VariableAndDataTypes
+﻿Module VariablesAndDataType
 
     Sub Main()
 

@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{944CC1CA-95E8-47D2-AE89-11696C7639EA}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <StartupObject>VariablesAndDataTypes.Module1</StartupObject>
+    <StartupObject>VariablesAndDataTypes.VariablesAndDataType</StartupObject>
     <RootNamespace>VariablesAndDataTypes</RootNamespace>
     <AssemblyName>VariablesAndDataTypes</AssemblyName>
     <FileAlignment>512</FileAlignment>
@@ -69,7 +69,7 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="VariableAndDataTypes.vb" />
+    <Compile Include="VariablesAndDataType.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
