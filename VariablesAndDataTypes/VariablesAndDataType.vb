@@ -4,6 +4,7 @@
 'VariablesAndDataType
 'link needed
 Option Explicit On
+Option Strict Off
 Module VariablesAndDataType
 
     Sub Main()
@@ -11,6 +12,7 @@ Module VariablesAndDataType
         Dim jellyBeans As Integer
         Dim laffyTaffy As Integer
         Dim baconCola As String
+        Dim money As Decimal
 
         Console.WriteLine(jellyBeans)
 
@@ -25,6 +27,14 @@ Module VariablesAndDataType
 
         baconCola = "I love sugar"
         Console.WriteLine(baconCola)
+
+        money = 9.126789876543D 'a random number
+        jellyBeans = CInt(1.56)
+        baconCola = "7"
+
+        jellyBeans = CInt(baconCola)
+
+        Console.WriteLine()
 
     End Sub
 
