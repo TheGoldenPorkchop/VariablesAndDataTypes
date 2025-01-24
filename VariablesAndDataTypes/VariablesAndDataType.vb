@@ -14,6 +14,8 @@ Module VariablesAndDataType
         Dim baconCola As String
         Dim money As Decimal
 
+        Dim userInputFruit As String
+
         Console.WriteLine(jellyBeans)
 
         jellyBeans = 120
@@ -34,6 +36,11 @@ Module VariablesAndDataType
 
         jellyBeans = CInt(baconCola)
 
+        'user input
+
+        Console.WriteLine("Please enter a fruit")
+        userInputFruit = Console.ReadLine()
+        Console.WriteLine("You selected: " & userInputFruit)
         Console.WriteLine()
 
     End Sub
